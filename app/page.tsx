@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-// @ts-ignore
+// @ts-expect-error
 import confetti from "canvas-confetti"
 import { Volume2, VolumeX } from 'lucide-react'
 import CustomTooltip from "@/components/custom-tooltip"
