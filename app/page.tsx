@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-// @ts-expect-error
+// @ts-expect-error - canvas-confetti types are not available but the package works fine
 import confetti from "canvas-confetti"
 import { Volume2, VolumeX } from 'lucide-react'
 import CustomTooltip from "@/components/custom-tooltip"
